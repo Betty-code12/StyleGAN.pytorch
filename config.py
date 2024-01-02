@@ -38,7 +38,9 @@ cfg.sched = CN()
 # res --> [4,8,16,32,64,128,256,512,1024]
 cfg.sched.epochs = [4, 4, 4, 4, 8, 16, 32, 64, 64]
 # batches for oen 1080Ti with 11G memory
-cfg.sched.batch_sizes = [128, 128, 128, 64, 32, 16, 8, 4, 2]
+# cfg.sched.batch_sizes = [128, 128, 128, 64, 32, 16, 8, 4, 2]
+cfg.sched.batch_sizes = [8, 8, 8, 8, 8, 8, 8, 4, 2]
+
 cfg.sched.fade_in_percentage = [50, 50, 50, 50, 50, 50, 50, 50, 50]
 
 # TODO
