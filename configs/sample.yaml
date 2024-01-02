@@ -1,10 +1,10 @@
 # Config file for CelebA dataset (200k)
 
-output_dir: '/kaggle/working/knock'
+output_dir: '/kaggle/working/shake'
 structure: 'linear'
 device_id: ('0')
 dataset:
-  img_dir: '/kaggle/input/raw50/03_knock'
+  img_dir: '/kaggle/input/raw50/05_shake'
   folder: False
   resolution: 128
 sched:
