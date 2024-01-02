@@ -8,4 +8,5 @@ dataset:
   folder: False
   resolution: 128
 sched:
-  epochs: [2,4,4,4,4,8]
+  # epochs: [2,4,4,4,4,8]
+  epochs: [8,16,16,64,512,2000]
